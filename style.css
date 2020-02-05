@@ -49,7 +49,7 @@ a:hover {
   box-shadow: 0 0 16px rgba(0,0,0,0.2);
   text-align: center;
   margin: 32px auto;
-  width: 720px;
+  /*width: 720px;*/
 }
 
 .btn-orange {
@@ -73,28 +73,33 @@ a:hover {
 .list-inline li{
   margin: 8px;
   display: inline;
+}
 
 .list-inline a{
   font-size: 16px;
 }
 
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+
 @media (max-width: 960px) {
   .container {
     width: 700px;
-    margin: 0px auto;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-    margin: 0px auto;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-    margin: 0px auto;
   }
 }
 
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
 
